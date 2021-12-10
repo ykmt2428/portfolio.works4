@@ -1,0 +1,153 @@
+@media screen and (max-width: 858px) {
+    .hanbager {
+        display: block;
+    }
+    .header-list {
+        display: none;
+    }
+    .header-left {
+        font-size: 25px;
+    }
+    
+    .main-visual {
+        height: 300px;
+        margin: 40px auto;
+    }
+    .main-wrapper {
+        h2 {
+            font-size: 25px;
+            &::after {
+                height: 0;
+            }
+            &::before {
+                height: 0;
+            }
+        }
+    }
+    .heading {
+        font-size: 25px;
+        &::after {
+            height: 0;
+        }
+        &::before {
+            height: 0;
+        }
+    }
+    .main-container {
+        dl {
+            flex-direction: column;
+            align-items: flex-start;
+            dt {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            dd {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    
+    .footer-wrapper {
+        padding: 20px 10px;
+    }
+        
+    .footer-list {
+        flex-direction: column;
+        align-items: flex-start;
+        li {
+            margin-bottom: 15px;
+        }
+    }
+    //active 
+    .main-wrapper3 {
+        padding: 20px;
+        margin: 40px auto;
+    }
+    .section-title {
+        font-size: 30px;
+        &::after {
+           opacity: 0;
+        }
+        &::before {
+            opacity: 0;
+        }
+    }
+
+.heading2 {
+    font-size: 25px;
+}
+.A-containers {
+    margin: 20px 0;
+}
+.A-container {
+    flex-direction: column;
+    align-items: center;
+}
+.A-left {
+    width: 100%;
+    margin-bottom: 20px; 
+    
+}
+.A-right {
+    width: 100%; 
+    p {
+        font-size: 18px;
+        line-height: 130%;
+    }
+}
+//実績
+.wrapper {
+    margin: 30px 0;
+}
+.heading3 {
+    font-size: 25px;
+}
+.container {
+    flex-direction: column;
+}
+.left {
+    width: 100%;
+    margin-bottom: 20px; 
+    img {
+        height: 300px;
+    }
+}
+.right {
+    width: 100%;
+    }
+}
+@media screen and (max-width: 485px) {
+    main {
+        padding: 0 5px;
+    }
+    .A-left {
+        width: 100%;
+    }
+    .A-right {
+        width: 100%;
+        p {
+            font-size: 16px;
+            line-height: 120%;
+        }
+    }
+    .header-left {
+        font-size: 20px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper {
+        img {
+            height: 200px;
+        }
+    }
+    .hide {
+        display: block;
+    }
+    .no-hide {
+        display: none;
+    }
+}
+
